@@ -1,0 +1,55 @@
+/* margin padding reset */
+body, div, p,  ul, ol, li, dl, dt, dd, table, th ,td, img, figure,
+h1, h2, h3 ,h4 ,h5, h6, form, select
+{ margin: 0; padding: 0; }
+html
+{ -webkit-text-size-adjust: 100%; }
+body
+{ -webkit-font-smoothing: antialiased; }
+
+html {
+  font-size: 14px;
+  font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+  color: #222;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;/*delete*/
+}
+
+/*------
+content
+------*/
+.content{
+  width:300px;
+  padding-top:15px;
+}
+/*------
+box
+------*/
+.button-set{
+  display: block;
+  padding-top:15px;
+}
+button{
+  width: 25%;
+  border: 2px solid;
+  border-color: #868686;
+  background-color: #e6e6e6;
+  padding:5px;
+  margin: 3px;
+  text-align: center;
+  display:inline-block;
+  border-radius:5px;
+  color: lightgray;
+  font-weight: bold;/*add*/
+}
+#start{
+  border: 2px solid;
+  border-color: black;
+  background-color: #bbbaba;
+  color:black;
+}
+#timer{
+  padding-left:10px;
+}
